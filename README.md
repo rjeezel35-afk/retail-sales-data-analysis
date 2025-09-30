@@ -25,7 +25,7 @@ Segmentation analysis (gender × age, top customers/categories)
 
 RFM framework for customer loyalty & churn risk
 
-Optional star schema for BI dashboards (fact + dimensions)
+Optional star schema for (fact + dimensions)
 
 # Business Questions
 
@@ -47,7 +47,7 @@ transaction_id, order_date, customer_id, gender, age, product_category, quantity
 
 # Data Model
 
-Single-table design for SQL analytics, plus optional star schema for BI tools:
+Single-table design for SQL analytics, plus optional star schema tools:
 
 sales(
   transaction_id, order_date, customer_id, gender, age,
@@ -71,9 +71,9 @@ Load dataset:
 
 Update CSV path in script and use LOAD DATA LOCAL INFILE
 
-Optional BI connection:
+Optional connection:
 
-Connect Power BI / Excel to MySQL
+Connect / Excel to MySQL
 
 Use v_sales_enriched, fact_sales, and dim_*
 
@@ -94,19 +94,7 @@ Gender × age-band segmentation
 
 RFM (Recency, Frequency, Monetary) scoring per customer
 
-# BI-Friendly Star Schema
 
-fact_sales with linked dimensions for products, customers, dates
-
-# Example Insights
-
-Revenue concentrated in top categories, with seasonal peaks
-
-VIP customers (RFM high tiers) contribute disproportionately to sales
-
-Younger cohorts buy more frequently but with smaller baskets
-
-Gender mix differs by category → targeted promotions recommended
 
 # Recommendations
 
