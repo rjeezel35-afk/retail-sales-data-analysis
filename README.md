@@ -1,4 +1,4 @@
-Retail Sales Data Analysis (MySQL 8+)
+# Retail Sales Data Analysis (MySQL 8+)
 
 End-to-end analytics project built on a retail transactions dataset using MySQL 8+.
 Covers data modeling, cleaning, SQL analytics, window functions, and RFM segmentation to demonstrate strong SQL and business analysis skills.
